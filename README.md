@@ -21,11 +21,11 @@ I there started researching PYTHON spellchecker and autocorrection libraries for
 ## How It works
 ### Coming Soon 🚧
 
+
 ## Example 
 ### Coming Soon 🚧
 
 
-The seconf file in the 'data' folder with the '_corrected_' at the end of the name is the correctd file. Everything worked perfectly.
 
 ## Note
 I anticipate that, depending on the level of the mistake, the orders 'Hemiptera' and 'Homoptera' may be mistaken for each other. 
