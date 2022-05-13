@@ -37,7 +37,7 @@ for file in files:
     new_file_name = (new_file[0] + '_corrected.' + new_file[1]).replace('data', 'corrected')
 
     # Print out each file name and it's corresponding
-    print(new_file_name + ':', corrected_list)
+    print(f'{new_file_name}: {len(corrected_list)} : {corrected_list}')
 
     # uncomment the line below to save the file with the corrections in the 'corrected' folder:
     # temp_df.to_excel('./' + new_file_name)
