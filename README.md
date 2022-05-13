@@ -3,12 +3,12 @@
 Py_Correct is project is an autocorrection tool which does autocorrcetion on the fly for data scientist who have to work with data that contains a large number of text data (which is prone to have a lot of spelling error or highly technical language - not commonly found in the English Language - in it). It is designed for people who work with text and in fields where highly technical language is used. It designed to enabble anyone autocorrect data in SPECIFIC COLUMNS on the fly, while they focus on the most important thing: Analysing the data and providing useful actionable information.
 
 ## My Profile 👨‍💻
-🔬 Technical Assistant: Target Malaria
-💻 Design and Software Lead: Identif
-💏 Single
-📱 +233 243 187629
-☎️ +233 505 807380
-📫 donkoryaw94@gmail.com
+####🔬 Technical Assistant: Target Malaria
+#### 💻 Design and Software Lead: Identif
+#### 💏 Single
+#### 📱 +233 243 187629
+#### ☎️ +233 505 807380
+#### 📫 donkoryaw94@gmail.com
 
 As a software engineer and a programmer, I'm always looking for ways to solve problems with the skills I have. I'd rather use the awesome tools that wonderful programmers have created to support us mere mortals. However, in the case where I can't find any tool that provides the exact solution I require, I will work on it until I create the new perfect shinny baby. Now, I am planning on sharing all the tools I have developed that others may benefit. As a researcher, data is one of the things that matter to me most. Data helps me tell a compelling story and get people to take the desired action. Data helps me reach conclusions with very little doubt and make informed decision.
 
