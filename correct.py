@@ -11,6 +11,10 @@ files = glob.glob(path + '/*.xlsx')  # Specifying the file extension for the fil
 # Loop over all the files and load into a Pandas' data frame
 for file in files:
     temp_df = pd.read_excel(file, sheet_name='Individuals')
+    if len(temp_df.index) > 95:
+        temp_df = temp_df.drop([95, 96])
+    else:
+        temp_df = temp_df
     # Specifying the column [TemporaryName in this case] to be autocorrected
     # TODO: make it possible to correct several columns at the same time.
     orders = temp_df['TemporaryName'].astype(str)
@@ -20,6 +24,7 @@ for file in files:
 
     #  Looping through words in column of interested  and correcting them
     for order in orders:
+        order = order.replace('-', '_')
         parts = re.split('_+', order)  # Splitting the order name into
         checker.set_text(parts[0])  # Spell Checking the name part of the 'Order'
         suggested = checker.suggest(parts[0])  # Correcting any spelling mistakes
