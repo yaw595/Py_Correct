@@ -14,7 +14,7 @@ Lepidoptera
 Neuroptera
 Odonata
 Orthoptera
-Phasmida
+Phasmatodea
 Phtiraptera
 Plecoptera
 Psocoptera
