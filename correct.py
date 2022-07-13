@@ -8,7 +8,8 @@ import pandas as pd  # For reading and modifying
 path = 'data'  # directory where data can be found
 files = glob.glob(path + '/*.xlsx')  # Specifying the file extension for the file type .xlsx, .csv etc
 
-def start_correction:
+
+def start_correction():
     # Loop over all the files and load into a Pandas' data frame
     for file in files:
         temp_df = pd.read_excel(file, sheet_name='Individuals')
@@ -52,3 +53,5 @@ def start_correction:
         writer.save()
 
 
+if __name__ == "__main__":
+    start_correction()
